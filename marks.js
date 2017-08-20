@@ -45,7 +45,7 @@ var classes = {
 
 Object.keys(classes.items).forEach(function(key) {
     var element = document.createElement('div');
-    element.innerHTML = (classes.items[key].name + " (" + classes.items[key].ects + ") <input type=\"number\" id=\""+ key +"\"><br>");
+    element.innerHTML = (classes.items[key].name + " (" + classes.items[key].ects + ") <input type=\"number\" step="0.5" id=\""+ key +"\"><br>");
     document.getElementById('main').appendChild(element);
 });
 
