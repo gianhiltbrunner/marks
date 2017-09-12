@@ -62,7 +62,5 @@ function calc(){
     console.log("P"+points);
     console.log("E"+totalECTS);
   });
-  var element = document.createElement('div');
-  element.innerHTML = (points/totalECTS);
-  document.getElementById('main').appendChild(element);
+  document.getElementById('anchor').innerHTML = (points/totalECTS);
 }
